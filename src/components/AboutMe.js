@@ -31,7 +31,7 @@ function AboutMe() {
  
   return (
     <>
-    <Header style={{ color: 'blue' }}/>
+    <Header style={{ color: 'white' }}/>
     <div className={`menuPage ${telonSubiendo ? 'menuPageUp' : ''}`}>
     </div>
     <div style={{visibility: telonSubiendo ? 'visible' : 'hidden'}}>
