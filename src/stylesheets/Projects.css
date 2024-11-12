@@ -1,0 +1,25 @@
+.projects-grid {
+    position: absolute; 
+    display: flex;
+    flex-wrap: wrap;
+    top: 0px; 
+    margin: 10%;
+    width: 80%; 
+    gap: 3%; 
+}
+
+.project-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 8%; 
+    align-items: flex-start; 
+    padding: 20px 0; 
+}
+
+.container-links {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+
