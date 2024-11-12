@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router basename="/portfolio">
         <Header />
         <Routes>
         <Route path="/portfolio" element={<PrincipalPage />} />
