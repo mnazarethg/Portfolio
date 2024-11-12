@@ -4,7 +4,7 @@ import '../stylesheets/MenuPage.css';
 import '../App.css';
 
 const MenuPage = () => {
-  const [telonBajado, setTelonBajado] = useState(false);
+  const [telonBajado, setTelonBajado] = useState(true);
   const [telonSubiendo, setTelonSubiendo] = useState(false);
   const navigate = useNavigate();
 
