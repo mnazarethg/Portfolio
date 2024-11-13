@@ -40,7 +40,7 @@ function AboutMe() {
           <img className='photo' src={photo} alt="María Nazareth Monti Gimenez" />
           <div>  
             <div >
-              <a href='../assets/Maria_Nazareth_Monti_Giménez_Desarrolladora.pdf' className="links" target="_blank" rel="noopener noreferrer" download="Maria_Nazareth_Monti_Giménez_Desarrolladora.pdf">CURRICULUM VITAE</a>
+              <a href='../assets/Maria_Nazareth_Monti_Giménez_Desarrolladora.pdf' className="links" download="Maria_Nazareth_Monti_Giménez_Desarrolladora.pdf">CURRICULUM VITAE</a>
             </div>
           </div>
           <div >
