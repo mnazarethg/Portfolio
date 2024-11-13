@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../stylesheets/AboutMe.css'; 
 import '../stylesheets/Projects.css'; 
-import Odoo from '../assets/odoo.png';
-import backHomeVideo from '../assets/back_home.mp4'; 
-import backHomeVideo2 from '../assets/back_home2.mp4'; 
-import partnersOdooVideo from '../assets/partners_odoo.mp4'; 
-import BackHome from '../assets/back_home.png';
+import Odoo from '../assets/images/odoo.png';
+import backHomeVideo from '../assets/videos/back_home.mp4'; 
+import backHomeVideo2 from '../assets/videos/back_home2.mp4'; 
+import partnersOdooVideo from '../assets/videos/partners_odoo.mp4'; 
+import BackHome from '../assets/images/back_home.png';
 import Header from './Header'; 
 
 function Projects() {

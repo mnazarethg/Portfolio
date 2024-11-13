@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../assets/photo.jpeg';
+import photo from '../assets/images/photo.jpeg';
 import Technologies from './Technologies';
 
 const Profile = () => {

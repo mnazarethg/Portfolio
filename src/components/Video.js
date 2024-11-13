@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import backHomeVideo from '../assets/back_home.mp4';
-import backHomeVideo2 from '../assets/back_home2.mp4';
-import partnersOdooVideo from '../assets/partners_odoo.mp4';
+import backHomeVideo from '../assets/videos/back_home.mp4';
+import backHomeVideo2 from '../assets/videos/back_home2.mp4';
+import partnersOdooVideo from '../assets/videos/partners_odoo.mp4';
 
 
 const proyectos = [

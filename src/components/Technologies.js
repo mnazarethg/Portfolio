@@ -1,16 +1,16 @@
 import React from 'react';
-import reactLogo from '../assets/react.png';
-import reactNativeLogo from '../assets/react_native.png';
-import css from '../assets/css.png';
-import express from '../assets/express.png';
-import html from '../assets/html.png';
-import javascript from '../assets/javascript.png';
-import mongo from '../assets/mongo.png';
-import node from '../assets/node.png';
-import odoo from '../assets/odoo.png';
-import python from '../assets/python.png';
-import postgresql from '../assets/postgresql.png';
-import docker from '../assets/docker.png';
+import reactLogo from '../assets/images/react.png';
+import reactNativeLogo from '../assets/images/react_native.png';
+import css from '../assets/images/css.png';
+import express from '../assets/images/express.png';
+import html from '../assets/images/html.png';
+import javascript from '../assets/images/javascript.png';
+import mongo from '../assets/images/mongo.png';
+import node from '../assets/images/node.png';
+import odoo from '../assets/images/odoo.png';
+import python from '../assets/images/python.png';
+import postgresql from '../assets/images/postgresql.png';
+import docker from '../assets/images/docker.png';
 
 const Technologies = () => {
   return (

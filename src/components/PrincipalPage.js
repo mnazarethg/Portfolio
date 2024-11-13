@@ -1,4 +1,4 @@
-import backgroundImage from '../assets/code.png';
+import backgroundImage from '../assets/images/code.png';
 import '../stylesheets/PrincipalPage.css';
 
 function PrincipalPage() {
