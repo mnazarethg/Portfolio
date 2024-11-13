@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MenuPage from './components/MenuPage';
-import AboutMe from './components/AboutMe';
+import AboutMe from './screens/AboutMe';
 import Projects from './components/Projects';
 import Contacto from './components/Contact';
 import Header from './components/Header';
