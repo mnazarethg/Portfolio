@@ -8,7 +8,6 @@ import backHomeVideo2 from '../assets/back_home2.mp4';
 import partnersOdooVideo from '../assets/partners_odoo.mp4'; 
 import BackHome from '../assets/back_home.png';
 import Header from './Header'; 
-import Video from './Video'
 
 function Projects() {
   const [telonSubiendo, setSubiendo] = useState(false);

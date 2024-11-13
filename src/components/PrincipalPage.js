@@ -1,4 +1,3 @@
-import React,  { useEffect } from 'react';
 import backgroundImage from '../assets/code.png';
 import '../stylesheets/PrincipalPage.css';
 

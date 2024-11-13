@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import '../App.css';
 import '../stylesheets/AboutMe.css';
 import Header from './Header';
@@ -41,7 +40,7 @@ function AboutMe() {
           <img className='photo' src={photo} alt="María Nazareth Monti Gimenez" />
           <div>  
             <div >
-              <Link to='/' className="links">CURRICULUM VITAE</Link>
+              <a href='../assets/Maria_Nazareth_Monti_Giménez_Desarrolladora.pdf' className="links" target="_blank" rel="noopener noreferrer" download="Maria_Nazareth_Monti_Giménez_Desarrolladora.pdf">CURRICULUM VITAE</a>
             </div>
           </div>
           <div >

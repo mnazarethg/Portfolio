@@ -35,10 +35,11 @@ const MenuPage = () => {
           <br></br>
           <Link className='menuOptions' to='/Contacto'>Contacto</Link>
         </div>
-        <div className="contactInfo container">
+        <footer className="contactInfo container">
           <a style={{ textDecoration: 'none' }} href='mailto:mnazarethg@gmail.com'>mnazarethg@gmail.com</a>
+          <a style={{ textDecoration: 'none' }} href='https://wa.me/543516622417'>+54 351 66 22 417</a>
           <a style={{ textDecoration: 'none' }} href='https://wa.me/34675148483'>+34 675 14 84 83</a>
-        </div>
+        </footer>
       </div>
     </>
   );

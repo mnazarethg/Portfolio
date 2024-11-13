@@ -23,25 +23,10 @@ h1 {
   font-weight: lighter;
 }
 
-@keyframes moveLogos {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-20px); 
-  }
-}
-
 .technology {
-  width: 20%;
+  width: 15%;
   margin: 5%;
-  animation: moveLogos 7s infinite; 
+  
 }
 
 .links {
