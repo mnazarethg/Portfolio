@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import MenuPage from './components/MenuPage';
+import MenuPage from './screens/MenuPage';
 import AboutMe from './screens/AboutMe';
 import Projects from './components/Projects';
-import Contacto from './components/Contact';
+import Contacto from './screens/Contact';
 import Header from './components/Header';
-import PrincipalPage from './components/PrincipalPage';
+import PrincipalPage from './screens/PrincipalPage';
 import Video from './components/Video';
+import Curriculum from './components/Curriculum';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/portfolio" element={<PrincipalPage />} />
         <Route path="/MenuPage" element={<MenuPage />} />
         <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/curriculum" component={Curriculum} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/project/:projectId" element={<Video />} />
         <Route path="/contacto" element={<Contacto />} />

@@ -24,7 +24,6 @@ function AboutMe() {
     <div style={{visibility: telonSubiendo ? 'visible' : 'hidden'}}>
     <div className='container-about-me'>
       <Profile />
-
       <ProfileDescription />
     </div>
     </div>
