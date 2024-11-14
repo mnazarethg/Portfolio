@@ -18,7 +18,7 @@ function App() {
         <Route path="/portfolio" element={<PrincipalPage />} />
         <Route path="/MenuPage" element={<MenuPage />} />
         <Route path="/AboutMe" element={<AboutMe />} />
-        <Route path="/curriculum" component={Curriculum} />
+        <Route path="/curriculum" element={<Curriculum />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/project/:projectId" element={<Video />} />
         <Route path="/contacto" element={<Contacto />} />
