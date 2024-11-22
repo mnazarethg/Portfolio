@@ -7,6 +7,7 @@ import backHomeVideo from '../assets/videos/back_home.mp4';
 import backHomeVideo2 from '../assets/videos/back_home2.mp4'; 
 import partnersOdooVideo from '../assets/videos/partners_odoo.mp4'; 
 import BackHome from '../assets/images/back_home.png';
+import QRDesign from '../assets/images/qr-code.png';
 import Header from './Header'; 
 
 function Projects() {
@@ -35,7 +36,6 @@ function Projects() {
       repository: "https://github.com/mnazarethg/BackHome",
       project: [backHomeVideo, backHomeVideo2]
     },
-
     {
       id: 2,
       image: Odoo,
@@ -48,6 +48,17 @@ function Projects() {
       ],
       repository: "https://github.com/usuario/proyecto1",
       project: partnersOdooVideo,
+    },
+    {
+      id: 3,
+      image: QRDesign,
+      tittle: "QR Code Component",
+      description:  [
+        "En este proyecto de Frontend Mentor Challenges, trabajé en el diseño de una tarjeta estática, ideal para quienes están iniciando en el desarrollo web.",
+        "Aunque el diseño no requiere adaptaciones responsivas, me permitió fortalecer habilidades en HTML y CSS, enfocándome en detalles visuales y estructuración semántica del código.",
+      ],
+      repository: "https://github.com/mnazarethg/qr-code",
+      project: "https://mnazarethg.github.io/qr-code/",
     },
 
   ];
@@ -68,7 +79,7 @@ function Projects() {
               <a className='links' href={proyecto.repository} target="_blank" rel="noopener noreferrer">REPOSITORIO</a>
               </div>
               <div className='container-links'>
-                <Link className='links' to={`/project/${encodeURIComponent(proyecto.id)}`}>VIDEOS</Link>
+                <Link className='links' to={`/project/${encodeURIComponent(proyecto.id)}`}>MULTIMEDIA</Link>
                 </div>
             </div>
             <div>

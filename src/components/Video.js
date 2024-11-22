@@ -8,6 +8,7 @@ import partnersOdooVideo from '../assets/videos/partners_odoo.mp4';
 const proyectos = [
   { id: '1', project:  [backHomeVideo, backHomeVideo2]  },
   { id: '2', project: partnersOdooVideo },
+
 ];
 
 function Video() {
